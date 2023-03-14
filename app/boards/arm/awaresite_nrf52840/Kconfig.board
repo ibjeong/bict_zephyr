@@ -1,0 +1,5 @@
+# awaresite board configuration
+
+config BOARD_AWARESITE_NRF52840
+	bool "awaresite"
+	depends on SOC_NRF52840_QIAA

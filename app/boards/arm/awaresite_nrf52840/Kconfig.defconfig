@@ -1,0 +1,20 @@
+# awaresite board configuration
+
+if BOARD_AWARESITE_NRF52840
+
+config BOARD
+	default "awaresite_nrf52840"
+
+config BT_CTLR
+	default BT
+
+config DISK_DRIVER_SDMMC
+	default y
+
+config I2C
+	default y
+
+config PWM
+	default y
+
+endif # BOARD_AWARESITE_NRF52840
